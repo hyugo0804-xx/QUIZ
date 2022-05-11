@@ -4,13 +4,13 @@ answersList.forEach(li => li.addEventListener('click', checkClickedAnswer));
 
 //正しい答え
 const correctAnswers = {
-    question1: 'B',
+    1: 'B',
 
-    question2: 'A',
+    2: 'A',
 
-    question3: 'B',
+    3: 'B',
 
-    question4: 'C',
+    4: 'C',
 };
 
 function checkClickedAnswer(event) {
