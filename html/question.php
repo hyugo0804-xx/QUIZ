@@ -1,6 +1,10 @@
 <?php
 
+require __DIR__.'/../lib/functions.php';
+
 $id = '1';
+
+$data = fetchById($id);
 $question = 'HTMLはなんの略称でしょうか？';
 
 $answers = [
